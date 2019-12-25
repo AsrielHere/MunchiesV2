@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { FirstStepComponent } from './first-step/first-step.component';
+import { SecStepComponent } from './sec-step/sec-step.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FirstStepComponent } from './first-step/first-step.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    FirstStepComponent
+    FirstStepComponent,
+    SecStepComponent
   ],
   imports: [
     BrowserModule,
